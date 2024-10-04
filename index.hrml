@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underworld News BD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section with Search Bar -->
+    <header>
+        <div class="header-content">
+            <h1>Underworld News BD</h1>
+            <input type="text" id="searchBar" placeholder="কন্টেন্ট খুঁজুন...">
+        </div>
+    </header>
+
+    <!-- Trending Section -->
+    <section id="trending" class="content-section">
+        <h2>ট্রেন্ডিং কন্টেন্ট</h2>
+        <div class="content-container">
+            <!-- 20 Trending Content with Images -->
+            <div class="content-item" data-title="Trending Content 1">
+                <img src="https://via.placeholder.com/300" alt="Trending Content 1">
+                <p>Trending Content 1</p>
+            </div>
+            <div class="content-item" data-title="Trending Content 2">
+                <img src="https://via.placeholder.com/300" alt="Trending Content 2">
+                <p>Trending Content 2</p>
+            </div>
+            <div class="content-item" data-title="ট্রেন্ডিং কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="ট্রেন্ডিং কন্টেন্ট ৩">
+                <p>ট্রেন্ডিং কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="ট্রেন্ডিং কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="ট্রেন্ডিং কন্টেন্ট ৪">
+                <p>ট্রেন্ডিং কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Trending Contents with images (20 in total) -->
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="content-section">
+        <h2>রিভিউ</h2>
+        <div class="content-container">
+            <!-- 20 Review Content with Images -->
+            <div class="content-item" data-title="Review 1">
+                <img src="https://via.placeholder.com/300" alt="Review 1">
+                <p>Review 1</p>
+            </div>
+            <div class="content-item" data-title="Review 2">
+                <img src="https://via.placeholder.com/300" alt="Review 2">
+                <p>Review 2</p>
+            </div>
+            <div class="content-item" data-title="রিভিউ কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="রিভিউ কন্টেন্ট ৩">
+                <p>রিভিউ কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="রিভিউ কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="রিভিউ কন্টেন্ট ৪">
+                <p>রিভিউ কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Review Contents with images (20 in total) -->
+        </div>
+    </section>
+
+    <!-- Gadgets Section -->
+    <section id="gadgets" class="content-section">
+        <h2>গ্যাজেটস</h2>
+        <div class="content-container">
+            <!-- 20 Gadgets Content with Images -->
+            <div class="content-item" data-title="Gadget 1">
+                <img src="https://via.placeholder.com/300" alt="Gadget 1">
+                <p>Gadget 1</p>
+            </div>
+            <div class="content-item" data-title="Gadget 2">
+                <img src="https://via.placeholder.com/300" alt="Gadget 2">
+                <p>Gadget 2</p>
+            </div>
+            <div class="content-item" data-title="গ্যাজেট কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="গ্যাজেট কন্টেন্ট ৩">
+                <p>গ্যাজেট কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="গ্যাজেট কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="গ্যাজেট কন্টেন্ট ৪">
+                <p>গ্যাজেট কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Gadgets Contents with images (20 in total) -->
+        </div>
+    </section>
+
+    <!-- Most Viewed Section -->
+    <section id="most-viewed" class="content-section">
+        <h2>মোস্ট ভিউড কন্টেন্ট</h2>
+        <div class="content-container">
+            <!-- 20 Most Viewed Content with Images -->
+            <div class="content-item" data-title="Most Viewed Content 1">
+                <img src="https://via.placeholder.com/300" alt="Most Viewed Content 1">
+                <p>Most Viewed Content 1</p>
+            </div>
+            <div class="content-item" data-title="Most Viewed Content 2">
+                <img src="https://via.placeholder.com/300" alt="Most Viewed Content 2">
+                <p>Most Viewed Content 2</p>
+            </div>
+            <div class="content-item" data-title="মোস্ট ভিউড কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="মোস্ট ভিউড কন্টেন্ট ৩">
+                <p>মোস্ট ভিউড কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="মোস্ট ভিউড কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="মোস্ট ভিউড কন্টেন্ট ৪">
+                <p>মোস্ট ভিউড কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Most Viewed Contents with images (20 in total) -->
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+  
