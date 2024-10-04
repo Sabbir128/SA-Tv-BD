@@ -77,14 +77,21 @@ footer {
 .footer-content ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0; /* Added margin for better spacing */
 }
 
 .footer-content ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Horizontally aligns the links */
+    margin: 0 15px; /* Margin between links */
 }
 
-.footer-content ul li a {
-    color: white;
-    text-decoration: none;
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .footer-content ul {
+        display: block; /* Stack the links vertically on small screens */
+    }
+    .footer-content ul li {
+        display: block; /* Make links take full width */
+        margin: 10px 0; /* Margin for vertical spacing */
+    }
 }
