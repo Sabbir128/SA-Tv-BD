@@ -1,10 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Horizontal scroll বন্ধ করতে */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header section */
 header {
     background-color: #333;
     color: white;
@@ -12,67 +22,60 @@ header {
     text-align: center;
 }
 
-.header-content h1 {
+header h1 {
+    font-size: 24px;
     margin: 0;
-    padding-bottom: 10px;
 }
 
-#searchBar {
+/* Search bar styling */
+.search-bar {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.search-bar input[type="text"] {
     padding: 10px;
-    width: 50%;
-    font-size: 16px;
-    border: none;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.content-section {
-    margin: 20px;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Content section */
+.main-content {
+    padding: 20px;
 }
 
-h2 {
-    color: #333;
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.content-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.content-item {
-    background-color: #f9f9f9;
-    margin: 10px;
-    padding: 10px;
+/* Post content box */
+.post-content {
     width: 300px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease;
+    height: 300px;
+    background-color: #e0e0e0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #aaa;
 }
 
-.content-item img {
-    width: 100%;
-    height: auto;
-}
-
-.content-item:hover {
-    transform: translateY(-5px);
-}
+/* Footer section */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
-    position: relative; /* Keeps footer at the bottom of the viewport */
-    bottom: 0;
-    left: 0;
     width: 100%;
-    z-index: 1000; /* Ensures footer stays above other content */
+    position: relative; /* Normal positioning */
+    bottom: 0;
 }
 
-/* Footer content styling */
 .footer-content p {
     margin: 0;
 }
@@ -93,13 +96,17 @@ footer {
     text-decoration: none;
 }
 
-/* Mobile Styles */
-@media (max-width: 600px) {
-    .footer-content ul {
-        display: block;
-    }
-    .footer-content ul li {
-        display: block;
-        margin: 10px 0;
-    }
-    }
+/* Ensure footer stays at the bottom */
+html, body {
+    height: 100%;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
