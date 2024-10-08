@@ -65,7 +65,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed; /* Keeps footer at the bottom of the viewport */
+    position: relative; /* Keeps footer at the bottom of the viewport */
     bottom: 0;
     left: 0;
     width: 100%;
