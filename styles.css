@@ -1,112 +1,135 @@
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Tv BD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-/* Body styling */
-body {
-    font-family: Arial, sans-serif;
-    overflow-x: hidden; /* Horizontal scroll বন্ধ করতে */
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
+    <!-- Header Section with Search Bar -->
+    <header>
+        <div class="header-content">
+            <h1>SA Tv BD</h1>
+            <input type="text" id="searchBar" placeholder="কন্টেন্ট খুঁজুন...">
+        </div>
+    </header>
 
-/* Header section */
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+    <!-- Trending Section -->
+    <section id="trending" class="content-section">
+        <h2>ট্রেন্ডিং কন্টেন্ট</h2>
+        <div class="content-container">
+            <!-- 20 Trending Content with Images -->
+            <div class="content-item" data-title="Trending Content 1">
+                <img src="https://via.placeholder.com/300" alt="Trending Content 1">
+                <p>Trending Content 1</p>
+            </div>
+            <div class="content-item" data-title="Trending Content 2">
+                <img src="https://via.placeholder.com/300" alt="Trending Content 2">
+                <p>Trending Content 2</p>
+            </div>
+            <div class="content-item" data-title="ট্রেন্ডিং কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="ট্রেন্ডিং কন্টেন্ট ৩">
+                <p>ট্রেন্ডিং কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="ট্রেন্ডিং কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="ট্রেন্ডিং কন্টেন্ট ৪">
+                <p>ট্রেন্ডিং কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Trending Contents with images (20 in total) -->
+        </div>
+    </section>
 
-header h1 {
-    font-size: 24px;
-    margin: 0;
-}
+    <!-- Reviews Section -->
+    <section id="reviews" class="content-section">
+        <h2>রিভিউ</h2>
+        <div class="content-container">
+            <!-- 20 Review Content with Images -->
+            <div class="content-item" data-title="Review 1">
+                <img src="https://via.placeholder.com/300" alt="Review 1">
+                <p>Review 1</p>
+            </div>
+            <div class="content-item" data-title="Review 2">
+                <img src="https://via.placeholder.com/300" alt="Review 2">
+                <p>Review 2</p>
+            </div>
+            <div class="content-item" data-title="রিভিউ কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="রিভিউ কন্টেন্ট ৩">
+                <p>রিভিউ কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="রিভিউ কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="রিভিউ কন্টেন্ট ৪">
+                <p>রিভিউ কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Review Contents with images (20 in total) -->
+        </div>
+    </section>
 
-/* Search bar styling */
-.search-bar {
-    text-align: center;
-    margin: 15px 0;
-}
+    <!-- Gadgets Section -->
+    <section id="gadgets" class="content-section">
+        <h2>গ্যাজেটস</h2>
+        <div class="content-container">
+            <!-- 20 Gadgets Content with Images -->
+            <div class="content-item" data-title="Gadget 1">
+                <img src="https://via.placeholder.com/300" alt="Gadget 1">
+                <p>Gadget 1</p>
+            </div>
+            <div class="content-item" data-title="Gadget 2">
+                <img src="https://via.placeholder.com/300" alt="Gadget 2">
+                <p>Gadget 2</p>
+            </div>
+            <div class="content-item" data-title="গ্যাজেট কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="গ্যাজেট কন্টেন্ট ৩">
+                <p>গ্যাজেট কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="গ্যাজেট কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="গ্যাজেট কন্টেন্ট ৪">
+                <p>গ্যাজেট কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Gadgets Contents with images (20 in total) -->
+        </div>
+    </section>
 
-.search-bar input[type="text"] {
-    padding: 10px;
-    width: 80%;
-    max-width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
+    <!-- Most Viewed Section -->
+    <section id="most-viewed" class="content-section">
+        <h2>মোস্ট ভিউড কন্টেন্ট</h2>
+        <div class="content-container">
+            <!-- 20 Most Viewed Content with Images -->
+            <div class="content-item" data-title="Most Viewed Content 1">
+                <img src="https://via.placeholder.com/300" alt="Most Viewed Content 1">
+                <p>Most Viewed Content 1</p>
+            </div>
+            <div class="content-item" data-title="Most Viewed Content 2">
+                <img src="https://via.placeholder.com/300" alt="Most Viewed Content 2">
+                <p>Most Viewed Content 2</p>
+            </div>
+            <div class="content-item" data-title="মোস্ট ভিউড কন্টেন্ট ৩">
+                <img src="https://via.placeholder.com/300" alt="মোস্ট ভিউড কন্টেন্ট ৩">
+                <p>মোস্ট ভিউড কন্টেন্ট ৩</p>
+            </div>
+            <div class="content-item" data-title="মোস্ট ভিউড কন্টেন্ট ৪">
+                <img src="https://via.placeholder.com/300" alt="মোস্ট ভিউড কন্টেন্ট ৪">
+                <p>মোস্ট ভিউড কন্টেন্ট ৪</p>
+            </div>
+            <!-- Add more Most Viewed Contents with images (20 in total) -->
+        </div>
+    </section>
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 SA Tv BD. সর্বস্বত্ব সংরক্ষিত।</p>
+        <ul>
+            <li><a href="#trending">ট্রেন্ডিং</a></li>
+            <li><a href="#reviews">রিভিউ</a></li>
+            <li><a href="#gadgets">গ্যাজেটস</a></li>
+            <li><a href="#most-viewed">মোস্ট ভিউড</a></li>
+            <li><a href="contact.html">যোগাযোগ করুন</a></li>
+        </ul>
+    </div>
+</footer>
 
-/* Content section */
-.main-content {
-    padding: 20px;
-}
-
-.section-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Post content box */
-.post-content {
-    width: 300px;
-    height: 300px;
-    background-color: #e0e0e0;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    color: #aaa;
-}
-
-/* Footer section */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    position: relative; /* Normal positioning */
-    bottom: 0;
-}
-
-.footer-content p {
-    margin: 0;
-}
-
-.footer-content ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.footer-content ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.footer-content ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Ensure footer stays at the bottom */
-html, body {
-    height: 100%;
-}
-
-.container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-content {
-    flex: 1;
-}
+    <script src="scripts.js"></script>
+</body>
+</html>
+  
